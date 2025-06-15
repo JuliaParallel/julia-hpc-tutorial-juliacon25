@@ -1,24 +1,25 @@
 ![plot](./assets/banner.png)
 
 
-# The Julia Language for Productive High-Performance Computing Tutorial @ LANL 24
+# The Julia Language for Productive High-Performance Computing Tutorial @ JuliaCon 2025
 
 ## Getting Started at NERSC
 
-The [Cheat Sheet](./Cheat%20Sheet.pdf) outlines the steps you need to get started at NERSC.  
+The [Cheat Sheet](./Cheat%20Sheet.pdf) outlines the steps you need to get
+started at NERSC.
 
 ### Special Considerations for Running on NERSC
 
-NERSC has about 11000 users, therefore the system-wide configurations are
-pretty bare-bones. On single-user systems (like your local workstation, laptop,
-or even the cloud), we've fallen into the habbit of making the system-wide
+NERSC has about 11000 users, therefore the system-wide configurations are pretty
+bare-bones. On single-user systems (like your local workstation, laptop, or even
+the cloud), we've fallen into the habbit of making the system-wide
 configurations our own. Sadly we can't do that on a shared system like NERSC's
 Perlmutter supercomputer -- just imagine the pandemonium for thousands of users
 customizing YOUR shell.
 
-The solution presented here is to install all necessary Julia packages using
-the `install.sh` script. This script also generates `activate.sh` which
-activates any customizations to the user shell environment.
+The solution presented here is to install all necessary Julia packages using the
+`install.sh` script. This script also generates `activate.sh` which activates
+any customizations to the user shell environment.
 
 ## Running Notebooks with JupyterLab
 
@@ -30,17 +31,16 @@ activates any customizations to the user shell environment.
 ### On NERSC
 
 Jupyter on HPC is a little different from running it locally or in the cloud.
-These instructiosn are based on NERSC's 
-[official documentation for Jupyter](https://docs.nersc.gov/services/jupyter/) 
-The key difference is that you need to use the `install.sh` script to put the
-Jupyer kernel specs in the location that JupyterHub expects
-(`~/.local/share/jupyter/kernels`). The `install.sh` script does the following:
+These instructiosn are based on NERSC's [official documentation for
+Jupyter](https://docs.nersc.gov/services/jupyter/) The key difference is that
+you need to use the `install.sh` script to put the Jupyer kernel specs in the
+location that JupyterHub expects (`~/.local/share/jupyter/kernels`). The
+`install.sh` script does the following:
 
 1. Installing a single-threaded and a multi-threaded kernel (the multi-threaded
    kernel is different form the single-threaded case because sets the
    `JULIA_NUM_THREADS` environment variable) into the user environment (where
    Jupyter Hub expects to find kernels).
-
 2. Intializes the user's Julia environment and makes sure IJulia is installed.
 
 These steps basically make use of the existing Julia infrastructure at NERSC to

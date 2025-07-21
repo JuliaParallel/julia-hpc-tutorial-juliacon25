@@ -3,11 +3,6 @@
 
 # The Julia Language for Productive High-Performance Computing Tutorial @ JuliaCon 2025
 
-## Getting Started at NERSC
-
-The [Cheat Sheet](./Cheat%20Sheet.pdf) outlines the steps you need to get
-started at NERSC.
-
 ### Special Considerations for Running on NERSC
 
 NERSC has about 11000 users, therefore the system-wide configurations are pretty

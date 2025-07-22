@@ -1,7 +1,15 @@
 ![plot](./assets/banner.png)
 
-
 # The Julia Language for Productive High-Performance Computing Tutorial @ JuliaCon 2025
+
+
+
+## Running Julia Notebooks at NERSC
+
+Please use the NERSC Julia Kernels at [jupyter.nersc.gov](jupyter.nersc.gov)
+
+> [!WARNING]  
+> There is an intermittent issue with the NERSC Julia Kernels -- if you are finding that the `NERSC Julia` kernels are not starting in your account, please run: `./nersc/install.sh` which will install `NERSC Debug Julia` kernels (you might need to restart your Jupyter Hub session.
 
 ### Special Considerations for Running on NERSC
 
@@ -56,18 +64,18 @@ You might not see the bright red “stop” button, and probably fewer rows/colu
 
 4. Clone the tutorial repository:
 ```sh
-git clone https://github.com/JuliaParallel/julia-hpc-tutorial-siam-cse25.git
+git clone https://github.com/JuliaParallel/julia-hpc-tutorial-juliacon25
 ```
 
 5. Enter the tutorial folder:
 ```sh
-git clone https://github.com/JuliaParallel/julia-hpc-tutorial-siam-cse25.git
-cd julia-hpc-tutorial-siam-cse25
+git clone https://github.com/JuliaParallel/julia-hpc-tutorial-juliacon25
+cd julia-hpc-tutorial-juliacon25
 ```
 
-6. Run the install script:
+6. (Optional: if the default `NERSC Julia` kernels don't work) Run the install script:
 ```sh
-./install.sh
+./nersc/install.sh
 ```
 (this might take some time – that’s OK)
 
@@ -83,7 +91,7 @@ cd julia-hpc-tutorial-siam-cse25
 Clone this repository (make sure to [install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)) and then enter inside the new directory by running the following commands in a terminal (we recommend using [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.4) if on Windows):
 
 ```sh
-git clone https://github.com/JuliaParallel/julia-hpc-tutorial-sc24
+git clone https://github.com/JuliaParallel/julia-hpc-tutorial-juliacon25
 cd julia-hpc-tutorial-sc24
 ```
 

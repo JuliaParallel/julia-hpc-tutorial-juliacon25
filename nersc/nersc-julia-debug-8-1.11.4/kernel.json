@@ -1,0 +1,13 @@
+{
+  "display_name": "NERSC Debug Julia 1.11.4 8 Thread(s)",
+  "argv": [
+    "{resource_dir}/kernel-helper.sh",
+    "{connection_file}"
+  ],
+  "language": "julia",
+  "env": {},
+  "interrupt_mode": "signal",
+  "metadata": {
+    "debugger": true
+  }
+}

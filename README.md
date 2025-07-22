@@ -2,7 +2,14 @@
 
 # The Julia Language for Productive High-Performance Computing Tutorial @ JuliaCon 2025
 
+## Slides
 
+1. [Overall Introduction](https://docs.google.com/presentation/d/1bg8gppzh5oFNOb4DXum7GUpiYLp5ejlwRWY9DmWm6RU)
+2. [NERSC Introduction](https://docs.google.com/presentation/d/1EVSpBKgBWQjn_i5eSpzofsBjnB_2clf9v3CaPYswMs4)
+
+## GPU Training Materials
+
+Please visit [https://github.com/omlins/julia-gpu-course-2025)(https://github.com/omlins/julia-gpu-course-2025)
 
 ## Running Julia Notebooks at NERSC
 

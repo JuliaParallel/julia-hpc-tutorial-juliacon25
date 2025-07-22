@@ -1,6 +1,7 @@
 #!/bin/bash
 
-ml use /opt/packages/julia/modules
+module use /opt/packages/julia/modulefiles
+module use /opt/packages/julia/modules
 module load python
 module load julia
 

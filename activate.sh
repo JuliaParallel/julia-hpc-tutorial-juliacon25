@@ -6,4 +6,5 @@ then
 else
     echo "I'm on NERSC Perlmutter => Activating pre-production modules"
     ml use /global/common/software/nersc9/julia/modules 
+    export JULIA_DEPOT_PATH=${SCRATCH}/depot_jc25
 fi

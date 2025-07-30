@@ -9,7 +9,7 @@
 
 ## GPU Training Materials
 
-Please visit [https://github.com/omlins/julia-gpu-course-2025)(https://github.com/omlins/julia-gpu-course-2025)
+Please visit [https://github.com/omlins/julia-gpu-course-2025](https://github.com/omlins/julia-gpu-course-2025)
 
 ## Running Julia Notebooks at NERSC
 
